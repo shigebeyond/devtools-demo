@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "devtools-demo",
+    "version": "1.0.0",
+    "description": "devtools 实例",
+    "icons":
+    {
+        "16": "logo.png",
+        "48": "logo.png"
+    },
+    "devtools_page": "index.html",
+    "permissions":
+    [
+        "contextMenus", 
+        "tabs",
+        "notifications", 
+        "webRequest",
+        "webRequestBlocking",
+        "storage", 
+        "cookies",
+        "activeTab",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
